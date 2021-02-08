@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +15,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +40,78 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  position: fixed;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 15px;
+  margin:15px;
+  border: none;
+  z-index: 3;
+}
+
+.resume {
+  margin-left: 69vw;
+}
+
+.link-home {
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  color: white;
+}
+
+.img-header {
+  margin-top: 0;
+  z-index: -1;
+  width: 100vw;
+  position:fixed;
+}
+
+.img-profile {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  margin-top: 20vw;
+  margin-bottom: -10vw;
+  border-radius: 100vw;
+  border: 7px solid rgb(226, 226, 226);
+  width: 18vw;
+  z-index: 2;
+}
+
+.carousel {
+  width: 100vw;
+  margin-top:0;
+  z-index: -1;
+}
+
+.slide {
+  width: 100vw;
+}
+
+.title {
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  position:absolute;
+  text-align: center;
+  width: 100vw;
+  height: 5vw;
+}
+
+.name {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 6vw;
+}
+
+.job {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2vw;
+  color: rgb(177, 177, 177);
 }
